@@ -34,6 +34,14 @@ python destek_direnc_bot.py --symbols "Gold (XAUUSD)" "Silver (XAGUSD)"
 - Her sembol icin `output/` klasorune `SEMBOL_1h_TARIH.png` adinda bir
   grafik kaydedilir.
 
+## Google Colab (tek hucre)
+
+`colab_destek_direnc_bot.py` dosyasinin tum icerigini bos bir Colab
+hucresine yapistirip calistirabilirsiniz. Ayri bir dosya/`requirements.txt`
+gerektirmez; `pip install` komutlari dosyanin en ustunde yer alir. Ayarlar
+(kullanici adi/sifre, mum sayisi, calistirilacak enstrumanlar) dosyanin
+"AYARLAR" bolumunden duzenlenir.
+
 ## Yontem
 
 1. Her enstruman icin son 250-300 saatlik mum tvDatafeed ile cekilir
