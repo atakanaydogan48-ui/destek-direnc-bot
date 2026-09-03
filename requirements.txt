@@ -1,0 +1,5 @@
+pandas
+numpy
+matplotlib
+mplfinance
+git+https://github.com/rongardF/tvdatafeed.git
